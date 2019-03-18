@@ -1,0 +1,12 @@
+// tslint:disable-next-line:no-unused-expression
+export class Authlogininfo{
+  username:string;
+  password:string;
+
+  constructor(username:string,password:string){
+    this.username=username;
+    this.password = password;
+  }
+
+}
+
